@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "828923338758",
+    "firebase_url": "https://hooked-app-71b1b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "hooked-app-71b1b",
+    "storage_bucket": "hooked-app-71b1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828923338758:android:8cff02963a0618c4536387",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiTG3olgYM_UGv2J5b4DQ4Ibna3JFCTkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

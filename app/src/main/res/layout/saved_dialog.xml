@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_profile"
+    android:backgroundTint="#6EBCF9"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="PATTERN"
+        android:textAlignment="center"
+        android:textColor="#1D6095"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#1D6095" />
+
+    <TextView
+        android:id="@+id/saved_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="pattern"
+        android:fontFamily="sans-serif-condensed"
+        android:maxHeight="500dp"
+        android:paddingLeft="15dp"
+        android:paddingEnd="5dp"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

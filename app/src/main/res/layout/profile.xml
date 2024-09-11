@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile"
+    android:background="#f2d5ef"
+    tools:context=".Profile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/log_out">
+
+        <ImageButton
+            android:id="@+id/frog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/frog"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/chicken"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chicken"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toEndOf="@+id/frog"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/panda"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/panda"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toEndOf="@+id/chicken"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/parrot"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/parrot"
+            android:onClick="buttonClicked"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/panda"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/bunny2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bunny2"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/frog"
+            app:layout_constraintTop_toBottomOf="@+id/frog" />
+
+        <ImageButton
+            android:id="@+id/bunny"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bunny"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/chicken"
+            app:layout_constraintTop_toBottomOf="@+id/chicken" />
+
+        <ImageButton
+            android:id="@+id/butterfly"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/butterfly"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/panda"
+            app:layout_constraintTop_toBottomOf="@+id/panda" />
+
+        <ImageButton
+            android:id="@+id/wolf"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/wolf"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/parrot"
+            app:layout_constraintTop_toBottomOf="@+id/parrot" />
+
+        <ImageButton
+            android:id="@+id/black_cat"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/black_cat"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/bunny2"
+            app:layout_constraintTop_toBottomOf="@+id/bunny2" />
+
+        <ImageButton
+            android:id="@+id/fox"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fox"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/bunny"
+            app:layout_constraintTop_toBottomOf="@+id/bunny" />
+
+        <ImageButton
+            android:id="@+id/cow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/cow"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/butterfly"
+            app:layout_constraintTop_toBottomOf="@+id/butterfly" />
+
+        <ImageButton
+            android:id="@+id/pig"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_profile"
+            android:contentDescription="pfp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pig"
+            android:onClick="buttonClicked"
+            app:layout_constraintStart_toStartOf="@+id/wolf"
+            app:layout_constraintTop_toBottomOf="@+id/wolf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/profile_pic_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/rounded_profile_2"
+        android:contentDescription="pfp"
+        android:scaleType="fitXY"
+        android:src="@drawable/star_pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-black"
+        android:text="USERNAME"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/log_out"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#BC33AC"
+        android:fontFamily="sans-serif-black"
+        android:text="LOG OUT"
+        android:textAlignment="center"
+        android:textColor="#F9F9F9"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_pic_profile" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#B130A2"
+        android:fontFamily="sans-serif-black"
+        android:text="☑"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
