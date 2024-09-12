@@ -10,7 +10,7 @@ Before running the APK, ensure that you have the following installed on your sys
 - Android Emulator: Part of Android Studio's setup.
 
 ## Download
-The latest APK release can be downloaded from the [Releases Section]() of this repository.
+The latest APK release can be downloaded from the [Releases Section](https://github.com/yonna-k/HookedApp/releases) of this repository.
 
 ## Steps to Run APK on Android Emulator
 ### 1. Open Android Studio
