@@ -19,15 +19,15 @@ The latest APK release can be downloaded from the [Releases Section](https://git
    - Go to `Tools > Device Manager`
    - Choose `Create Virtual Device`
    - Click `New Hardware Profile` and edit the following properties:
-     - Name: S22
-     - Screen Size: 6.1 inch
-     - Resolution: 1080 x 2340 px
-     - RAM : 2048 MB
+     - **Name:** S22
+     - **Screen Size:** 6.1 inch
+     - **Resolution:** 1080 x 2340 px
+     - **RAM:** 2048 MB
     
    - Choose "Upside Down Cake" as the system image
    - Click 'Next' and 'Finish' to create the emulator
 
-   To start the emulator, click the play button next to it
+   **To start the emulator, click the play button next to it.**
 
 ### 3. Install APK on Emulator (please download the APK from 'Releases' first)
    
